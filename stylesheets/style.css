@@ -1,5 +1,5 @@
 h3 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', 'Francois one', sans-serif;
   font-size: 30px;
   padding: 10px
 }
@@ -36,7 +36,6 @@ h3 {
 
 .head-main {
   display: flex;
-  border: 2px solid red;
   justify-content: center;
   width: 100vw;
   height: 40vh;
@@ -45,11 +44,46 @@ h3 {
 
 .image-links {
   width: 100vw;
-  height: 60vh;
-  display: inline-block;
-  justify-content: center;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-left: 15px;
 }
 
-.wrapper {
-  border: 2px solid red;
+.image-links .card {
+  width: 25vw;
+}
+
+.first-line {
+  margin-bottom: 36px;
+}
+
+
+.wrapper-two {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-two p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 31px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box {
+  margin-top: 60px;
+}
+
+.logo-one {
+  margin: 0 20px;
+
 }
